@@ -60,7 +60,7 @@ footer p {
   word-wrap: break-word;
 }
 
-.note button {
+/*.note button {
   position: relative;
   float: right;
   margin-right: 10px;
@@ -70,6 +70,18 @@ footer p {
   height: 36px;
   cursor: pointer;
   outline: none;
+}*/
+
+.note button {
+  position: relative;
+  float: right;
+  color: #f5ba13;
+  border: none;
+  width: 65px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 25%;
 }
 
 form {
@@ -82,7 +94,8 @@ form {
   box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   border: none;
   padding: 4px;
@@ -106,4 +119,3 @@ form button {
   cursor: pointer;
   outline: none;
 }
-
